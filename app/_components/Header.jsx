@@ -7,7 +7,7 @@ import Image from "next/image"
 function Header() {
     const { user, isSignedIn } = useUser()
     return (
-        <div className="flex justify-between items-center p-6 md:px-20 shadow-md fixed w-full top-0 left-0 z-20">
+        <div className="flex justify-between items-center p-6 md:px-20 shadow-md ">
             <Image src='/logo1.png' alt="logo" width={200} height={200} />
             <div className="hidden md:flex border p-2 rounded-lg bg-gray-200 w-96">
                 <input type="text" className="w-full bg-transparent outline-none" />
